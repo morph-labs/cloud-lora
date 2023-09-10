@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cloud-lora"
+version = "0.1.0"
+description = ""
+authors = ["jesse <jessemhan@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+peft = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
