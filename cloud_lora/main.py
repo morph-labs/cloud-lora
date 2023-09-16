@@ -21,6 +21,7 @@ class CloudLoraRemote:
         resp = requests.post(os.path.join(CLOUD_LORA_URL, "generate", self.uuid), json=req)
         return resp.json()["output"]
 
+@dataclass    
 class CloudLoraCreateParams:
     adapter_config_path: Any
     adapter_model_bin_path: Any
